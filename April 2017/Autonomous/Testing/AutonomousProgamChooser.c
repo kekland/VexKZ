@@ -616,7 +616,7 @@ void setLCD() {
 		displayLCDCenteredString(1, "<     OK     >");
 	}
 	else if(selCount == 7) {
-		displayLCDString(0, 0, "P0rimary: ");
+		displayLCDString(0, 0, "Primary: ");
 		sprintf(mainBattery, "%1.2f%c", nImmediateBatteryLevel/1000.0,'V'); //Build the value to be displayed
 		displayNextLCDString(mainBattery);
 
